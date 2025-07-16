@@ -1,0 +1,44 @@
+name: bulkingcess
+description: "A new Flutter project."
+
+# Baris ini mencegah package dipublikasikan ke pub.dev secara tidak sengaja
+publish_to: 'none'
+
+# Versi aplikasi: major.minor.patch+build
+version: 1.0.0+1
+
+# Versi minimal SDK Dart yang digunakan oleh project ini
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Paket ikon untuk tampilan iOS (opsional)
+  cupertino_icons: ^1.0.8
+
+  # Paket untuk menggunakan font dari Google Fonts termasuk Plus Jakarta Sans
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Aturan penulisan kode agar lebih rapi & sesuai standar
+  flutter_lints: ^5.0.0
+
+flutter:
+  # Aktifkan desain material
+  uses-material-design: true
+
+  # Daftar gambar (assets) yang akan digunakan dalam aplikasi
+  assets:
+    - assets/image/splashscreen.jpg
+    - assets/image/halaman_awal.png
+
+  # Jika kamu ingin menambahkan font sendiri secara manual, bisa aktifkan bagian ini
+  # fonts:
+  #   - family: NamaFont
+  #     fonts:
+  #       - asset: fonts/NamaFont-Regular.ttf
